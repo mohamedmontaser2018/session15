@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fanned Photo Stack</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main class="page">
+  <h1>Fanned Photo Stack</h1>
+  <p class="hint">Click any photo to bring it to the front.</p>
+
+  <div class="stack" id="stack">
+    <figure class="card" data-id="beach" style="--rot:-14deg; --x:-70px; --y:10px;">
+      <img src="assets/beach.jpg" alt="Clear turquoise water over rocks" />
+    </figure>
+    <figure class="card" data-id="park" style="--rot:14deg; --x:70px; --y:16px;">
+      <img src="assets/park.jpg" alt="Sunlit green park with trees" />
+    </figure>
+    <figure class="card" data-id="bike" style="--rot:0deg; --x:0px; --y:0px;">
+      <img src="assets/bike.jpg" alt="Cyclist silhouette at sunset" />
+    </figure>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
